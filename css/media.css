@@ -1,0 +1,57 @@
+@media (max-width:390px){
+    .footer{
+        font-weight: 300;
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width:990px){
+    .navbar img{
+        width: 150px;
+        height: fit-content;
+    }
+    .header{
+        padding-bottom: 30px;
+    }
+    .header .left h1,
+    .buy .content h1{
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+    .services .content{
+        margin-top: -50px;
+    }
+    .services .content .cont{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .devices .content img{
+        width: 60%;
+    }
+    .section{
+        text-align: center;
+    }
+    .section .content h1{
+        padding-top: 0;
+        font-size: 50px;
+    }
+    .gear .content h1{
+        font-size: 45px;
+    }
+    .explore .content .right{
+        text-align: start;
+    }
+}
+
+
+
+
+@media (min-width:990px) and (max-width:1186px){
+    .header .right img{
+        margin-top: 95px;
+    }
+}
